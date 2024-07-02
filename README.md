@@ -1,7 +1,9 @@
 # Week 12 challenge
 
 ## Employee database
-
+```
+When you get a call to verify employment you need quick access to your employee database.
+```
 ## User Story
 
 ```
