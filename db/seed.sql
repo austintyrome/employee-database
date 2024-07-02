@@ -7,25 +7,25 @@ const sequelize = require('../config/connection');
 class Seed {
 
     employeeData = [
-        {first_name: 'jon', last_name: 'smith', roleId: 1, manager: 'Gamma'},
-        {first_name: 'light', last_name: 'yagami', roleId: 2, manager: 'Ryuk'},
-        {first_name: 'lucy', last_name: 'heartfelia', roleId: 3, manager: 'Natsu'},
-        {first_name: 'rimiru', last_name: 'tempest', roleId: 4, manager: 'Shion'},
-        {first_name: 'miya', last_name: 'yotsuba', roleId: 5, manager: 'No one'},
-        {first_name: 'naruto', last_name: 'uzumaki', roleId: 6, manager: 'Kakashi'},
-        {first_name: 'monkey', last_name: 'd. luffy', roleId: 7, manager: 'Himself'},
-        {first_name: 'hingle', last_name: 'mcCringleberry', roleId: 8, manager: 'Javaris Jamar Javarison-Lamar'},
+        {first_name: 'Aza', last_name: 'Bull', roleId: 1, manager: 'Yuno'},
+        {first_name: 'Tony', last_name: 'Tiger', roleId: 2, manager: 'Kellog'},
+        {first_name: 'Sharon', last_name: 'Names', roleId: 3, manager: 'Ru'},
+        {first_name: 'Lazy', last_name: 'Susan', roleId: 4, manager: 'Jane'},
+        {first_name: 'Trixie', last_name: 'Mattel', roleId: 5, manager: 'Barbie'},
+        {first_name: 'Ameron', last_name: 'Martin', roleId: 6, manager: 'Jessic'},
+        {first_name: 'Tiffany', last_name: 'Polard', roleId: 7, manager: 'New York'},
+        {first_name: 'Jeremiah', last_name: 'Bullforg', roleId: 8, manager: 'Friend'},
     ];
     
     roleData = [
-        {title: 'train security', salary: 15000, departmentId: 1},
-        {title: 'chip eater', salary: 6700, departmentId: 2},
-        {title: 'key collector', salary: 33331, departmentId: 3},
-        {title: 'other world investigator', salary: 1500000, departmentId: 3},
-        {title: 'military advisor', salary: 56000000, departmentId: 4},
-        {title: 'ramen eater', salary: 20, departmentId: 2},
-        {title: 'pirate captian', salary: 4000000, departmentId: 3},
-        {title: 'basketball guy', salary: 3, departmentId: 4},
+        {title: 'train driver', salary: 85000, departmentId: 1},
+        {title: 'wine sommelier', salary: 180000, departmentId: 2},
+        {title: 'lock smith', salary: 65000, departmentId: 3},
+        {title: 'ceo', salary: 200000, departmentId: 3},
+        {title: 'truck driver', salary: 88000, departmentId: 4},
+        {title: 'cashier', salary: 44000, departmentId: 2},
+        {title: 'produce finder', salary: 4000000, departmentId: 3},
+        {title: 'manager', salary: 70000, departmentId: 4},
     ];
     
     departmentData = [
