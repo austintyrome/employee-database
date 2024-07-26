@@ -73,9 +73,3 @@ class Seed {
         }
     };
 };
-
-
-
-
-
-module.exports = Seed;
