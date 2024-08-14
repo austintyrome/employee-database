@@ -4,6 +4,10 @@
 ```
 When you get a call to verify employment you need quick access to your employee database.
 ```
+## Repo
+https://github.com/austintyrome/employee-database
+## Demo
+https://drive.google.com/file/d/1gLArPekETU7NMfi71es8Wt8_Bezi-o-b/view?usp=drive_link
 ## User Story
 
 ```
