@@ -1,25 +1,25 @@
-INSERT INTO department(department_name)
-VALUES   ( 'transportation'),
-        ( 'food'),
-        ( 'exploration'),
-        ( 'management');
+-- Populate departments
+INSERT INTO department (name)
+VALUES 
+('Engineering'),
+('Finance'),
+('Human Resources'),
+('Sales');
 
-INSERT INTO role(role_name, role_salary, department_id)
-VALUES   ( 'train driver',   85000,   1),
-        ( 'wine sommelier',   180000,   2),
-        ( 'lock smith',   65000,   3),
-        ( 'ceo',   200000,   3),
-        ( 'truck driver',   88000,   4),
-        ( 'cashier',   44000,   2),
-        ( 'produce finder',   4000000,   3),
-        ( 'manager',   70000,   4);
+-- Populate roles
+INSERT INTO role (title, salary, department)
+VALUES
+('Software Engineer', 75000, 1),
+('Senior Software Engineer', 95000, 1),
+('Accountant', 65000, 2),
+('HR Manager', 80000, 3),
+('Sales Representative', 55000, 4);
 
-INSERT INTO employee(employee_first, employee_last, role_id, manager_id)
-VALUES  ( 'Aza',  'Bull',  1,  NULL),
-        ( 'Tony',  'Tiger',  2,  1),
-        ( 'Sharon',  'Names',  3,  2),
-        ( 'Lazy',  'Susan',  4,  NULL),
-        ( 'Trixie',  'Mattel',  5,  4),
-        ( 'Ameron',  'Martin',  6,  5),
-        ( 'Tiffany',  'Polard',  7,  6),
-        ( 'Jeremiah',  'Bullforg',  8,  7);
+-- Populate employees
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES
+('John', 'Doe', 1, NULL),
+('Jane', 'Smith', 2, 1),
+('Emily', 'Davis', 3, NULL),
+('Michael', 'Brown', 4, NULL),
+('Sarah', 'Wilson', 5, 4);
